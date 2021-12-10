@@ -16976,7 +16976,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523566253}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.24, y: 1.355, z: 16.99}
+  m_LocalPosition: {x: 4.365, y: 1.306, z: 18.361}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -16994,6 +16994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a6173a0328758a429b3c6cb3222387e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 1614937822}
 --- !u!4 &1524397631 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4082985011640766, guid: a367f32b0351f2648a0e15f3444c6f86, type: 3}
@@ -18155,6 +18156,7 @@ GameObject:
   - component: {fileID: 1614937820}
   - component: {fileID: 1614937822}
   - component: {fileID: 1614937821}
+  - component: {fileID: 1614937823}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Untagged
@@ -18320,6 +18322,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1614937823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614937815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb2fc5305f62b1409f4c6dc5eab2ee2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1620577118 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4289126748202998, guid: 9672218ecb324c240ae58e7a390701f2, type: 3}
